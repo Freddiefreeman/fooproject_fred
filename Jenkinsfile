@@ -23,7 +23,8 @@ pipeline {
                     classPattern: '**/build/classes/java/main',
                     sourcePattern: '**/src/main')
 				}
-            }
+			}
+		}
         }
     }
 }
