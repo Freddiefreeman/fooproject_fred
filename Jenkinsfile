@@ -1,5 +1,12 @@
 pipeline {
     agent any 
+
+    environment {
+        def myString = "Hello, User."
+        def myNumber = 5
+        def myBool = true
+    }
+
     stages {
         stage('Checkout') {
             steps {
